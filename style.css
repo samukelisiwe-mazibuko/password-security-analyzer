@@ -1,0 +1,26 @@
+body {
+    font-family: Aria,sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    width:400px;
+    margin: auto;
+}
+
+inpu { 
+    width: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+butrton{
+    padding:10px 20pa;
+    cursor: pointer;
+}
+
+#result {
+    margin: 20px;
+    font-weight: bold;
+}
