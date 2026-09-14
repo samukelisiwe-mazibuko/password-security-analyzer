@@ -9,6 +9,19 @@ analyzeBtn.addEventListener("click", () => {
     const hasNumber = /[0-9]/.test(password);
     const hasSpecial = /[^A-Za-z0-9]/.test(password);
 
+    const commonPasswords = [
+        "password",
+        "123456",
+        "12345678",
+        "qwerty",
+        "admin",
+        "letmein",
+        "welcome",
+        "password123"
+    ];
+
+    const isCommonPassword = commonPassword.includes(password.toLowerCase());
+
     let score = 0;
 
     if (password.length >= 8) {
@@ -47,5 +60,6 @@ analyzeBtn.addEventListener("click", () => {
         Special Character: ${hasSpecial ? "Present" : "Missing"}<br>
         Score: ${score}/5<br>
         Strength: ${strength}
+        Common Password: ${isCommonPassword ? "Yes" : "No"}
     `;
 });
