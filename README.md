@@ -2,6 +2,8 @@
 
 ## About the Project
 
+Verification code : WTC-3YHLEKDZ
+
 Password Security Analyzer is a beginner-friendly cybersecurity project built with HTML, CSS, and JavaScript.
 
 The application analyzes a password and checks whether it meets common password security requirements. It calculates a security score and classifies the password as **Weak, Medium, or Strong**.
