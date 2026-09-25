@@ -20,7 +20,7 @@ analyzeBtn.addEventListener("click", () => {
         "password123"
     ];
 
-    const isCommonPassword = commonPassword.includes(password.toLowerCase());
+    const isCommonPassword = commonPasswords.includes(password.toLowerCase());
 
     let score = 0;
 
