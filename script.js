@@ -62,4 +62,6 @@ analyzeBtn.addEventListener("click", () => {
         Strength: ${strength}
         Common Password: ${isCommonPassword ? "Yes" : "No"}
     `;
+
+    document.getElementById("passwordInput").value = "";
 });
